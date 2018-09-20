@@ -1,0 +1,7 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.joojava.config.apidoc.SwaggerAutoConfiguration,\
+  com.joojava.config.apidoc.SwaggerPluginsAutoConfiguration,\
+  com.joojava.config.FrameworkProperties,\
+  com.joojava.security.uaa.UaaAutoConfiguration,\
+  com.joojava.config.info.FrameworkInfoContributorConfiguration,\
+  com.joojava.security.ssl.UndertowSslConfiguration
