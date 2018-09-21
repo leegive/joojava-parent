@@ -4,11 +4,12 @@
 
     <parent>
         <artifactId>joojava-parent</artifactId>
-        <groupId>com.joojava</groupId>
+        <groupId>io.github.leegive</groupId>
         <version>0.0.1-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
+    <groupId>io.github.leegive</groupId>
     <artifactId>joojava-dependencies</artifactId>
     <packaging>pom</packaging>
     <name>joojava-dependencies</name>
@@ -766,12 +767,12 @@
 
     <distributionManagement>
         <snapshotRepository>
-            <id>sonatype</id>
+            <id>ossrh</id>
             <url>https://oss.sonatype.org/content/repositories/snapshots</url>
         </snapshotRepository>
         <repository>
-            <id>sonatype</id>
-            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+            <id>ossrh</id>
+            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>
         </repository>
     </distributionManagement>
 

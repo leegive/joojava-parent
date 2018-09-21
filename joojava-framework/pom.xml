@@ -4,7 +4,7 @@
 
     <parent>
         <artifactId>joojava-dependencies</artifactId>
-        <groupId>com.joojava</groupId>
+        <groupId>io.github.leegive</groupId>
         <version>0.0.1-SNAPSHOT</version>
         <relativePath>../joojava-dependencies/pom.xml</relativePath>
     </parent>
@@ -13,7 +13,7 @@
     <packaging>jar</packaging>
     <name>joojava-framework</name>
     <description>Server-side library</description>
-    <url></url>
+    <url>https://github.com/leegive/joojava-framework</url>
 
     <licenses>
         <license>
