@@ -1,5 +1,6 @@
 language: java
-script: ./mvnw clean verify -Dgpg.skip=true
+script:
+    - ./mvnw clean verify -Dgpg.skip=true
 #after_success:
 #    - mvn clean test
 #    - mvn jacoco:report
