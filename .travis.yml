@@ -1,4 +1,4 @@
-language: java
+#language: java
 script:
     - ./mvnw clean verify -Dgpg.skip=true
 #after_success:
