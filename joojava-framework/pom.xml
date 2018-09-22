@@ -6,7 +6,7 @@
         <artifactId>joojava-dependencies</artifactId>
         <groupId>io.github.leegive</groupId>
         <version>0.0.1.RELEASE</version>
-        <relativePath>../joojava-dependencies/pom.xml</relativePath>
+        <relativePath/>
     </parent>
 
     <artifactId>joojava-framework</artifactId>
